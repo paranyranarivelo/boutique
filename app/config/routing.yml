@@ -1,3 +1,13 @@
+shop_back:
+    resource: "@ShopBackBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+shop_front:
+    resource: "@ShopFrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
